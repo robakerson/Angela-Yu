@@ -58,6 +58,6 @@
 // })
 
 //chain animations!
-$("button").on("click", function(){
-  $("h1").slideUp().slideDown().animate({opacity:0.5})
-})
+// $("button").on("click", function(){
+//   $("h1").slideUp().slideDown().animate({opacity:0.5})
+// })
