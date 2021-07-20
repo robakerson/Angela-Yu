@@ -66,5 +66,5 @@ function startOver(){
 
     var userChosenColor = $(this).attr('id');
     userClickedPattern.push(userChosenColor);
-    checkAnswer(level - 1);
+    checkAnswer(userClickedPattern.length-1);
   });
