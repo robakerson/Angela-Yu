@@ -36,19 +36,19 @@
   <body class="text-center">
 
 <main class="form-signin">
-  <form>
+  <form method = "POST" action="/">
     <h1 class="h3 mb-3 fw-normal">Sign up for my newsletter!</h1>
 
     <div class="form-floating">
-      <input type="text" class="form-control top" id="floatingInput" placeholder="First Name" required autofocus>
+      <input name="firstName" type="text" class="form-control top" placeholder="First Name" required autofocus>
       <label for="floatingFirstName">First Name</label>
     </div>
     <div class="form-floating">
-      <input type="text" class="form-control middle" id="floatingPassword" placeholder="Last Name" required>
+      <input name="lastName" type="text" class="form-control middle" placeholder="Last Name" required>
       <label for="floatingLastName">Last Name</label>
     </div>
     <div class="form-floating">
-      <input type="email" class="form-control bottom" id="floatingPassword" placeholder="Email" required>
+      <input name="email" type="email" class="form-control bottom" placeholder="Email" required>
       <label for="floatingEmail">Email</label>
     </div>
 
